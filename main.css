@@ -73,13 +73,44 @@ li:hover {
 }
 
 .spacer {
-    height: 600px;
+    height: 580px;
 }
 
 .mainimagecont .imagelink a {
     color: #ffffff;
     text-decoration: none;
     font-size: 48px;
-    width: auto;
+    margin: auto;
+    width: 200px;
     text-align: center;    
+    display: block;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #D70000;
+    background-color: #D70000;
+    
 }
+
+.mainimagecont .imagelink a:hover {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+fa fa-star-o {
+    height:40px;
+    width: 40px;
+}
+
+.deathstar {
+    width: 40px;
+    height: 40px;
+    fill: white;
+}
+
+.deathstar:hover {
+    color: white;
+}
+
+/*.mainimagecont .imagelink .kylobox {
+    width:200px;
+}*/
