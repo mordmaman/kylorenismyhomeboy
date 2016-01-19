@@ -1,0 +1,85 @@
+@font-face {
+font-family: 'Serif Gothic Regular';
+src: url(fonts/SerifGothicRegular.ttf);
+}
+
+@font-face {
+font-family: 'Serif Gothic Bold';
+src: url(font/SerifGothichBold.tff);
+}
+
+body {
+	margin: 0;  
+	padding: 0;
+	font-family: 'Serif Gothic Regular', serif;
+    background-color: #000000;	
+}
+
+html, body {
+      height: 100%;
+      width: 100%;
+}
+
+#nav {
+    min-height: 100%;
+    width: 224px;
+    background-color: #000000;
+    float: left;
+    height: 100%;
+}
+
+#main {
+   background-color: #3F3F3F; 
+   max-width: 100%;
+   margin: 0px 0px 0px 224px;
+   height: 100%;
+}
+
+#main p {
+    margin-top: 0px;
+}
+
+#kylologo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 224px;
+}
+
+ul{
+	list-style-type: none;
+	display: inline-block;	
+    text-align: center;
+}
+
+li {
+    
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+li:first-child{
+    color : #D70000;
+}
+
+li:hover { 
+    color: #D70000;
+}
+
+.mainimagecont {
+    background-size: cover; 
+    background-image: url(images/kyloren747.jpg); 
+    height: 747px;
+}
+
+.spacer {
+    height: 600px;
+}
+
+.mainimagecont .imagelink a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 48px;
+    width: auto;
+    text-align: center;    
+}
