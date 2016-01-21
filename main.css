@@ -12,7 +12,10 @@ body {
 	margin: 0;  
 	padding: 0;
 	font-family: 'Serif Gothic Regular', serif;
-    background-color: #000000;	
+    background-color: #000000;
+    min-height: 100%;	
+    height: 100%;
+    
 }
 
 html, body {
@@ -25,8 +28,12 @@ html, body {
     width: 224px;
     background-color: #000000;
     float: left;
-    height: 100%;
 }
+
+.clearfix {
+  overflow: auto;
+}
+
 
 #main {
    background-color: #3F3F3F; 
@@ -35,9 +42,9 @@ html, body {
    height: 100%;
 }
 
-#main p {
+/*#main p {
     margin-top: 0px;
-}
+}*/
 
 #kylologo {
     margin-top: 50px;
@@ -66,17 +73,26 @@ li:hover {
     color: #D70000;
 }
 
+/*.headerimagesection{
+    position: absolute;
+}*/
+
 .mainimagecont {
     background-size: cover; 
     background-image: url(images/kyloren747.jpg); 
     height: 747px;
+    margin-bottom: 60px;
 }
 
 .spacer {
     height: 580px;
 }
 
-.mainimagecont .imagelink a {
+.spacer2{
+    height:56px;
+}
+
+.mainimagecont .imagelink button {
     color: #ffffff;
     text-decoration: none;
     font-size: 48px;
@@ -88,10 +104,9 @@ li:hover {
     border-width: 5px;
     border-color: #D70000;
     background-color: #D70000;
-    
 }
 
-.mainimagecont .imagelink a:hover {
+.mainimagecont .imagelink button:hover {
     background-color: #000000;
     border-color: #000000;
 }
@@ -110,6 +125,81 @@ fa fa-star-o {
 .deathstar:hover {
     color: white;
 }
+
+.bottomimagelink .kylorenbox {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 28px;
+    margin: auto;
+    width: 300px;
+    text-align: center;    
+    display: block;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #E7250A;
+    background-color: #E7250A;
+   
+}
+
+.mainimagecont .bottomimagelink button:hover {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.homecontent{
+    height: 400px;
+    display: block;
+}
+
+.homecontent-section-1 {
+    display: inline-block;
+    height: 300px;
+    width: 50%;
+}
+
+
+.homecontent-section-1 #h1 {
+    /*width: 50%;*/
+    font-size: 28px;
+    text-align: left;
+    color: #FFEB3B;
+}
+.homecontent-section-1 p{
+    /*width: 50%;*/
+    font-size: 20px;
+    line-height: 36px;
+    color: white;
+    text-align: left;
+}
+
+.image1 {
+
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 48%;
+    height: 300px;
+    /*text-align: center;*/
+    /*width: 50%s;*/
+}
+
+
+#image1 {
+    margin-top: 22px;
+    margin-bottom: 22px;
+    padding: 20px;
+    border: 22px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #D70000;
+}
+
+/*.homecontent-section-1-#image1 {
+    display: inline-block;
+
+} */
+
+
 
 /*.mainimagecont .imagelink .kylobox {
     width:200px;
