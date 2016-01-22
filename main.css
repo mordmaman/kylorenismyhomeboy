@@ -57,19 +57,21 @@ ul{
 	display: inline-block;	
     text-align: center;
 }
-
-li {
-    
+ul a {
+    text-decoration: none;
+}
+a {
     color: #ffffff;
     font-size: 25px;
     line-height: 50px;
+    
 }
 
-li:first-child{
+ul a:first-child{
     color : #D70000;
 }
 
-li:hover { 
+ul a:hover { 
     color: #D70000;
 }
 
@@ -129,7 +131,7 @@ fa fa-star-o {
 .bottomimagelink .kylorenbox {
     color: #ffffff;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 24px;
     margin: auto;
     width: 300px;
     text-align: center;    
@@ -149,8 +151,24 @@ fa fa-star-o {
 .homecontent{
     height: 400px;
     display: block;
+    max-width: 1046px;
+    margin: 0 auto;
 }
 
+.wrapper1 {
+    border-bottom: 1px;
+    border-bottom-color: #696969;
+    border-bottom-style: solid;
+    height: 380px;
+}
+
+.wrapper2 {
+    margin-top: 60px;
+    border-bottom: 1px;
+    border-bottom-color: #696969;
+    border-bottom-style: solid;
+    height: 420px;
+}
 .homecontent-section-1 {
     display: inline-block;
     height: 300px;
@@ -160,10 +178,18 @@ fa fa-star-o {
 
 .homecontent-section-1 #h1 {
     /*width: 50%;*/
+    font-size: 32px;
+    text-align: left;
+    color: #FFEB3B;
+}
+
+.homecontent-section-1 #h2 {
+    /*width: 50%;*/
     font-size: 28px;
     text-align: left;
     color: #FFEB3B;
 }
+
 .homecontent-section-1 p{
     /*width: 50%;*/
     font-size: 20px;
@@ -192,6 +218,100 @@ fa fa-star-o {
     border-style: solid;
     border-width: 2px;
     border-color: #D70000;
+}
+
+.darthbox {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 30px auto auto auto;
+    width: 350px;
+    text-align: center;    
+    border-style: solid;
+    border-width: 5px;
+    border-color: #D70000;
+    background-color: #D70000;
+    padding: 5px;
+    font-family: 'Serif Gothic Regular', serif;
+}
+
+.darthbox:hover {
+    background-color: #FFEB3B;
+    border-color: #FFEB3B;
+    color: black;
+}
+
+.wrapper3 {
+    display: block;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.wrapper3 h3 {
+    font-size: 28px;
+    color: #FF8300;   
+}
+
+.wrapper3 p {
+    font-size: 20px;
+    color: white;
+}
+
+form {
+    color: white;
+    font-family: 'Serif Gothic Regular', serif;
+    line-height: 30px;
+}
+
+.submit {
+    font-family: 'Serif Gothic Regular', serif;
+}
+
+
+/* MATT.HTML */
+
+.homecontentmatt{
+    height: 800px;
+    display: block;
+    max-width: 1046px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.homecontentmatt h1
+{
+    font-size: 48px;
+    color: #FFEB3B;
+}
+
+.homecontentmatt p {
+   color: white;
+   font-size: 24px;
+}
+
+.homecontentmatt iframe{
+    margin-top: 50px;
+}
+
+.thumbnails img{
+    height: 250px;
+    width: 250px;
+}
+
+.thumbnails img:hover {
+		border: 4px solid #00ccff;
+		cursor:pointer;
+	}
+
+.preview img {
+    border: 4px solid #D70000;
+    margin: 10px;
+    width:500px;
+    height: 500px;
+}
+
+.gallery {
+    margin-bottom: 60px; 
 }
 
 /*.homecontent-section-1-#image1 {
