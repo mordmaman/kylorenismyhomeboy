@@ -314,6 +314,143 @@ form {
     margin-bottom: 60px; 
 }
 
+/*JEDI.HTML CSS
+*/
+
+ul#css3menu1.topmenu {
+    padding-left: 0px;
+    height: 100vh;
+    width: 256px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    float: left;
+}
+
+#css3menu1::-webkit-scrollbar{
+width:16px;
+background-color:#000;
+} 
+
+#css3menu1::-webkit-scrollbar-thumb{
+background-color:#D70000;
+border-radius:10px;
+}
+#css3menu1::-webkit-scrollbar-thumb:hover{
+background-color:#D70000;
+border:1px solid #000;
+}
+#css3menu1::-webkit-scrollbar-thumb:active{
+background-color:#D70000;
+border:1px solid #000;
+} 
+
+ul#css3menu1 li {
+    height: 256px;
+    width: 256px;
+}
+
+.topfirst {
+    -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.topfirst:hover{
+    -webkit-filter: grayscale(100%);
+}
+
+.topmenu1, .topmenu2, .topmenu3, .topmenu4, .topmenu5, .topmenu6, .topmenu7{
+    -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.topmenu1:hover, .topmenu2:hover, .topmenu3:hover, .topmenu4:hover, .topmenu5:hover, .topmenu6:hover, .topmenu7:hover{
+        -webkit-filter: grayscale(100%);
+}
+
+.area{
+    height: 100%;
+    background-color: white;
+}
+/*
+ul#css3menu1{
+    margin:0;
+    list-style:none;
+    padding:0 3px 3px;
+    background-color:#424542;
+    border-width:2px;
+    border-style:solid;
+    border-color:#FFF;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    border-radius:7px;
+    font-size:0;
+    z-index:999;
+    position:relative;
+    display:block;
+    float:left;
+    }
+    
+ul#css3menu1 li{
+    display:block;
+    white-space:nowrap;
+    font-size:0;}
+    
+ul#css3menu1>li{
+    margin:3px 0 0;}
+    
+ul#css3menu1 a:active, ul#css3menu1 a:focus{
+    outline-style:none;}
+    
+ul#css3menu1 a{
+    display:block;
+    vertical-align:middle;
+    text-align:left;
+    text-decoration:none;
+    font:14px Open Sans Condensed,Arial,Helvetica,sans-serif;
+    color:#FFF;
+    cursor:pointer;
+    padding:10px;
+    background-color:#424542;
+    background-image:none;
+    background-repeat:repeat;
+    border-width:1px 0 0 0;
+    border-style:solid;
+    border-color:#424542;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;}
+    
+ul#css3menu1 li:hover>a,ul#css3menu1 li a.pressed{
+    background-color:#F8F8F8;
+    border-color:#424542;
+    border-style:solid;
+    color:#1FAFAF;
+    background-image:url(../images/mainbk.png);
+    text-decoration:none;}
+    
+ul#css3menu1 img{
+    border:none;
+    vertical-align:middle;
+    margin-right:10px;}
+    
+ul#css3menu1 li.topfirst>a{
+    border-width:0;
+    -moz-transition:all 0.5s;
+    -webkit-transition:all 0.5s;
+    -o-transition:all 0.5s;}
+ul#css3menu1 li.topmenu>a{
+    -moz-transition:all 0.5s;
+    -webkit-transition:all 0.5s;
+    -o-transition:all 0.5s;}
+*/
 /*.homecontent-section-1-#image1 {
     display: inline-block;
 

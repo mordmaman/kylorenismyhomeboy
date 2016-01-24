@@ -5,11 +5,19 @@
     <title>Matt</title>
     <link rel="stylesheet" href="main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="skins/tn3/tn3.css"></link>
+    <script type="text/javascript" src="js/jquery.tn3.min.js"></script>
     
     <script src="something.js"></script>
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
     
-
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $(".area").load("your mum");
+            });
+        });
+    </script>
 
 
 </head>
@@ -29,31 +37,29 @@
     </div><!-- closes sidebar-->
     
     <div id = "main" class="clearfix"><!--this is the main section-->
+        <ul id="css3menu1" class="topmenu">
+            <li class="topfirst"><a class="pressed" href="#" style="width:98px;"><img src="images/poe.jpg" alt=""/></a></li>
+            <li class="topmenu1"><a href="#" style="width:98px;"><img src="images/rey.jpg" alt=""/></a></li>
+            <li class="topmenu2"><a href="#" style="width:98px;"><img src="images/finn.jpg" alt=""/></a></li>
+            <li class="topmenu3"><a href="#" style="width:98px;"><img src="images/han.jpg" alt=""/></a></li>
+            <li class="topmenu4"><a href="#" style="width:98px;"><img src="images/hux.jpg" alt=""/></a></li>
+            <li class="topmenu5"><a href="#" style="width:98px;"><img src="images/leia.jpg" alt=""/></a></li>
+            <li class="topmenu6"><a href="#" style="width:98px;"><img src="images/chewie.jpg" alt=""/></a></li> 
+            <li class="topmenu7"><a href="#" style="width:98px;"><img src="images/luke.jpg" alt=""/></a></li>   
+        </ul>
         
-           <div class="homecontentmatt">
-            <div class="wrappermatt">
-                <h1>KYLO GOES UNDERCOVER</h1>
-                <p>Kylo Ren changed out of his intimidating attire swapping his robe for <br>
-                a high visibility jacked and his lightsaber for a wrench as he<br>
-                went undercover on Starkiller Base.</p>
-                <p>Kylo transforms into Matt, a Radar Technician who chows down with his colleagues<br>
-                and gets his hands dirty fixing some equipment</p>
-                <p>In this special episode of Undercover Boss find out what people really<br>
-                think of the the First Order and their engimatic commander. Will he be <br>
-                able to blend in or will he stand out like a Wookie on Endor?</p>
-            </div>
+        <div class ="area">
+            stuff
             
-            <iframe width="720" height="405" src="https://www.youtube.com/embed/FaOSCASqLsE" 
-            frameborder="0" allowfullscreen></iframe>
-           </div> 
-        
-            
-        <!--<p>yo</p>
-        
-        <button type="button" class="button">Click Me!</button>-->
+            <div id="div1"><h2>Let jQuery AJAX Change This Text</h2></div>
+
+            <button>Get External Content</button>
+        </div>
+
+           
 
     
-    </div>
+    </div><!-- closes the main section-->
 
 </body>
 </html>
