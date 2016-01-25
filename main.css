@@ -282,6 +282,7 @@ form {
 {
     font-size: 48px;
     color: #FFEB3B;
+    padding-top: 60px;
 }
 
 .homecontentmatt p {
@@ -313,6 +314,25 @@ form {
 .gallery {
     margin-bottom: 60px; 
 }
+
+#main::-webkit-scrollbar{
+width:16px;
+background-color:#000;
+} 
+
+#main::-webkit-scrollbar-thumb{
+background-color:#D70000;
+border-radius:10px;
+}
+
+#main::-webkit-scrollbar-thumb:hover{
+background-color:#D70000;
+border:1px solid #000;
+}
+#main::-webkit-scrollbar-thumb:active{
+background-color:#D70000;
+border:1px solid #000;
+} 
 
 /*JEDI.HTML CSS
 */
