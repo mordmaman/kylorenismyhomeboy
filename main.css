@@ -352,11 +352,11 @@ ul#css3menu1 li {
 }
 
 .topfirst {
-    -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
+    -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
 }
 
 .topfirst:hover{
@@ -364,11 +364,11 @@ ul#css3menu1 li {
 }
 
 .topmenu1, .topmenu2, .topmenu3, .topmenu4, .topmenu5, .topmenu6, .topmenu7{
-    -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
+    -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
 }
 
 .topmenu1:hover, .topmenu2:hover, .topmenu3:hover, .topmenu4:hover, .topmenu5:hover, .topmenu6:hover, .topmenu7:hover{
@@ -376,9 +376,375 @@ ul#css3menu1 li {
 }
 
 .area{
-    height: 100%;
-    background-color: white;
+    max-height: 100%;
+    display: block;
 }
+
+.area h1, #poearea h1 {
+    text-align: center;
+    font-size: 48px;
+    color: #F6DF18;
+    margin-top: 0px;
+    padding-top: 60px;
+}
+
+.area p {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.area img {
+    display: block;
+    height: 480px;
+    width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*poe page */
+
+#poearea{
+    margin-top: 0px;
+    background-color: #E3662E;
+    height: 100%;
+    
+}
+
+.homecontentpoe {
+        height: 800px;
+    display: block;
+     max-width: 100%; 
+    margin: 0 auto;
+    text-align: center;
+}
+.poeh1{
+    color: #010000 !important;
+}
+
+#poearea a {
+    text-decoration: none;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    display:inline-block;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #D70000;
+    background-color: #D70000;
+}
+
+#poearea a:hover{
+  background-color: #CD8861;
+    border-color: #CD8861;  
+}
+
+/*rey*/
+
+#reyarea{
+    margin-top: 0px;
+    background-color: #F2E4CA;
+    height: 100%;
+}
+
+.homecontentrey {
+        height: 800px;
+    display: block;
+     max-width: 100%; 
+    margin: 0 auto;
+    text-align: center;
+}
+.reyh1{
+    color: #282725 !important;
+}
+
+#reyarea p {
+    color: #282725
+}
+
+#reyarea a {
+    text-decoration: none;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    display:inline-block;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #482D1A;
+    background-color: #482D1A;
+}
+
+#reyarea a:hover{
+  background-color: #D4B795;
+    border-color: #D4B795;  
+}
+
+/*finn*/
+
+#finnarea{
+    margin-top: 0px;
+    background-color: #E2EAD2;
+    height: 100%;
+}
+
+.homecontentfinn {
+        height: 800px;
+    display: block;
+     max-width: 100%; 
+    margin: 0 auto;
+    text-align: center;
+}
+.finnh1{
+    color: #080B04 !important;
+}
+
+#finnarea p {
+    color: #080B04
+}
+
+#finnarea a {
+    text-decoration: none;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    display:inline-block;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #4E1C00;
+    background-color: #4E1C00;
+}
+
+#finnarea a:hover{
+  background-color: #6B6130;
+    border-color: #6B6130;  
+}
+
+/*han*/
+
+#hanarea{
+    margin-top: 0px;
+    background-color: #905833;
+    height: 100%;
+}
+
+.homecontenthan {
+        height: 800px;
+    display: block;
+     max-width: 100%; 
+    margin: 0 auto;
+    text-align: center;
+}
+.hanh1{
+    color: #14151A !important;
+}
+
+#hanarea p {
+    color: #14151A
+}
+
+#hanarea a {
+    text-decoration: none;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    display:inline-block;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFE7CB;
+    background-color: #FFE7CB;
+    color: #14151A;
+}
+
+#hanarea a:hover{
+  background-color: #930B1F;
+    border-color: #930B1F;  
+}
+
+/*bb8*/
+
+#bb8area{
+    margin-top: 0px;
+    background-color: #E78518;
+    height: 100%;
+}
+
+.homecontentbb8 {
+        height: 800px;
+    display: block;
+     max-width: 100%; 
+    margin: 0 auto;
+    text-align: center;
+}
+.bb8h1{
+    color: #171B1A !important;
+}
+
+#bb8area p {
+    color: #171B1A
+}
+
+#bb8area a {
+    text-decoration: none;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    display:inline-block;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #D9D4D8;
+    background-color: #D9D4D8;
+    color: #171B1A;
+}
+
+#bb8area a:hover{
+  background-color: #B7C8DC;
+    border-color: #B7C8DC;  
+}
+
+/*leia*/
+
+#leiaarea{
+    margin-top: 0px;
+    background-color: #932D81
+;
+    height: 100%;
+}
+
+.homecontentleia {
+        height: 800px;
+    display: block;
+     max-width: 100%; 
+    margin: 0 auto;
+    text-align: center;
+}
+.leiah1{
+    color: #000 !important;
+}
+
+#leiaarea p {
+    color: #000
+}
+
+#leiaarea a {
+    text-decoration: none;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    display:inline-block;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #6D62AA;
+    background-color: #6D62AA;
+    color: #000;
+}
+
+#leiaarea a:hover{
+  background-color: #FF5F5C;
+    border-color: #FF5F5C;  
+}
+
+/*chewie*/
+
+#chewiearea{
+    margin-top: 0px;
+    background-color: #A66D2D;
+    height: 100%;
+}
+
+.homecontentchewie {
+        height: 800px;
+    display: block;
+     max-width: 100%; 
+    margin: 0 auto;
+    text-align: center;
+}
+.chewieh1{
+    color: #403428 !important;
+}
+
+#chewiearea p {
+    color: #403428
+}
+
+#chewiearea a {
+    text-decoration: none;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    display:inline-block;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #69482E;
+    background-color: #69482E;
+    color: #fff;
+}
+
+#chewiearea a:hover{
+  background-color: #D99241;
+    border-color: #D99241;  
+}
+
+/*luke*/
+#lukearea{
+    margin-top: 0px;
+    background-color: #EDDDAB;
+    height: 100%;
+}
+
+.homecontentluke {
+        height: 800px;
+    display: block;
+     max-width: 100%; 
+    margin: 0 auto;
+    text-align: center;
+}
+.lukeh1{
+    color: #171B1A !important;
+}
+
+#lukearea p {
+    color: #171B1A
+}
+
+#lukearea a {
+    text-decoration: none;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    display:inline-block;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #CCB674;
+    background-color: #CCB674;
+    color: #171B1A;
+}
+
+#lukearea a:hover{
+  background-color: #FAF1E3;
+    border-color: #FAF1E3;  
+}
+
+
+
+/*.mainimagecont .imagelink button {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 48px;
+    margin: auto;
+    width: 200px;
+    text-align: center;    
+    display: block;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #D70000;
+    background-color: #D70000;
+}
+
+.mainimagecont .imagelink button:hover {
+    background-color: #000000;
+    border-color: #000000;
+}*/
+
 /*
 ul#css3menu1{
     margin:0;
