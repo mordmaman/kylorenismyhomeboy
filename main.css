@@ -67,9 +67,9 @@ a {
     
 }
 
-ul a:first-child{
+/*ul a:first-child{
     color : #D70000;
-}
+}*/
 
 ul a:hover { 
     color: #D70000;
@@ -90,11 +90,14 @@ ul a:hover {
     height: 580px;
 }
 
-.spacer2{
-    height:56px;
+#spacer2{
+    height:47px;
+    
 }
 
-.mainimagecont .imagelink button {
+
+
+.mainimagecont .imagelink .kylobox{
     color: #ffffff;
     text-decoration: none;
     font-size: 48px;
@@ -108,7 +111,7 @@ ul a:hover {
     background-color: #D70000;
 }
 
-.mainimagecont .imagelink button:hover {
+.mainimagecont .imagelink .kylobox:hover {
     background-color: #000000;
     border-color: #000000;
 }
@@ -143,7 +146,7 @@ fa fa-star-o {
    
 }
 
-.mainimagecont .bottomimagelink button:hover {
+.mainimagecont .bottomimagelink .kylorenbox:hover {
     background-color: #000000;
     border-color: #000000;
 }
@@ -267,6 +270,40 @@ form {
     font-family: 'Serif Gothic Regular', serif;
 }
 
+/*kylos tale*/
+
+#mainkylo {
+    background: url("images/whoiskylo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   /*background-color: #3F3F3F; */
+   max-width: 100%;
+   margin: 0px 0px 0px 224px;
+   height: 100%;
+}
+
+.homecontentkylo{
+    height: 800px;
+    display: block;
+    max-width: 1046px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.homecontentkylo h1
+{
+    font-size: 48px;
+    color: #FFEB3B;
+    padding-top: 50px;
+    margin-top: 0px;
+}
+
+.homecontentkylo p {
+   color: white;
+   font-size: 24px;
+}
+
 
 /* MATT.HTML */
 
@@ -347,9 +384,17 @@ border:1px solid #000;
 /*JEDI.HTML CSS
 */
 
+#mainjedi {
+   background-color: #3F3F3F; 
+   max-width: 100%;
+   margin: 0px 0px 0px 224px;
+   height: 100%;
+}
+
+
 ul#css3menu1.topmenu {
     padding-left: 0px;
-    height: 100vh;
+    max-height: 100vh;
     width: 256px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -380,6 +425,11 @@ ul#css3menu1 li {
     height: 256px;
     width: 256px;
 }
+
+.topmenu7{
+    height:260px;
+}
+
 
 .topfirst {
     -webkit-transition: all 0.5s ease;
@@ -435,6 +485,10 @@ ul#css3menu1 li {
     border-style: solid;
     border-width: 2px;
     border-color: #D70000;
+}
+
+.topmenu7 a{
+    height:0px;
 }
 
 /*poe page */
