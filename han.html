@@ -2,13 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Han</title>
     <link rel="stylesheet" href="main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-    <link type="text/css" rel="stylesheet" href="skins/tn3/tn3.css"></link>
-    <script type="text/javascript" src="js/jquery.tn3.min.js"></script>
-    
-    <script src="something.js"></script>
+
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
     
     <script>
@@ -21,6 +19,7 @@
       });
     });
     </script>
+    
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -39,18 +38,29 @@
         <img id = "kylologo" src = "images/kylo.jpg">
         
         <ul>
-            <a href="index2.html"><li>Base</li></a>
+            <a href="index.html"><li>Base</li></a>
             <a href="kylostale.html"><li>Kylo's Tale</li></a>
-            <a href="lightsaber.html"><li>Lightsaber</li></a>
-            <a href="Jedi.html" style="color:#D70000"><li>Resistance</li></a>
+            <a href="lightsaber.html" ><li>Lightsaber</li></a>
+            <a href="resistance.html" style="color:#D70000"><li>Resistance</li></a>
             <a href = "matt.html"><li>Matt</li></a>
             <a href = "cartoons.html"><li>Cartoons</li></a>
         </ul>
         
     
     </div><!-- closes sidebar-->
+    <section class = "kylonav" id="mobilenav">
+        <ul>
+            <a href="index.html"><li>Base</li></a>
+            <a href="kylostale.html"><li>Kylo's Tale</li></a>
+            <a href="lightsaber.html"><li>Lightsaber</li></a>
+            <a href="resistance.html" style="color:#D70000"><li>Resistance</li></a>
+            <a href = "matt.html"><li>Matt</li></a>
+            <a href = "cartoons.html" ><li>Cartoons</li></a>
+        </ul>
+    </section>
+  
     
-    <div id = "main" class="clearfix"><!--this is the main section-->
+    <div id = "mainjedi" class="clearfix"><!--this is the main section-->
         <ul id="css3menu1" class="topmenu">
             <li class="topfirst"><a class="pressed" href="poe.html" style="width:98px;"><img src="images/poe.jpg" alt=""/></a></li>
             <li class="topmenu1"><a href="rey.html" style="width:98px;"><img src="images/rey.jpg" alt=""/></a></li>
@@ -59,16 +69,28 @@
             <li class="topmenu4"><a href="bb8.html" style="width:98px;"><img src="images/bb8.jpg" alt=""/></a></li>
             <li class="topmenu5"><a href="leia.html" style="width:98px;"><img src="images/leia.jpg" alt=""/></a></li>
             <li class="topmenu6"><a href="chewie.html" style="width:98px;"><img src="images/chewie.jpg" alt=""/></a></li> 
-            <li class="topmenu7"><a href="luke.html" style="width:98px;"><img src="images/luke.jpg" alt=""/></a></li>   
+            <a href="luke.html" style="width:98px;"><li class="topmenu7"><img src="images/luke.jpg" alt=""/></li></a>   
         </ul>
         
         <div class ="area" id="hanarea">
+            <div class="homecontenthan">
+            <section class = "kylonav" id="mobilenav">
+                <ul>
+                    <a href="poe.html"><li>Poe</li></a>
+                    <a href="rey.html"><li>Rey</li></a>
+                    <a href="finn.html"><li>Finn</li></a>
+                    <a href="han.html" style="color:#D70000"><li>Han</li></a>
+                    <a href = "bb8.html"><li>BB8</li></a>
+                    <a href = "leia.html"><li>Leia</li></a>
+                    <a href = "chewie.html"><li>Chewie</li></a>
+                    <a href = "luke.html"><li>Luke</li></a>
+                </ul>
+            </section>
             
-        <div class="homecontenthan">
             <h1 class="hanh1">"DAD"</h1>
             
-            <p>Han Solo. Legendary Smuggler and war hero<br>
-            or as Kylo used to call him, "Dad"<br>
+            <p>Han Solo. Legendary Smuggler and war<br> 
+            hero or as Kylo used to call him,<br> "Dad"<br>
             What a let down, as a father, as a husband<br>
             He's nothing like wise Supreme Leader Snoke<br>
             Either way, he's history now. He left Kylowith one parting gift<br>
@@ -79,14 +101,14 @@
             
             <br>
             
-            <p><a href="http://starwars.wikia.com/wiki/Han_Solo" target="_blank">Click here for more Han</a></p>
-        </div>
+            <p><a id="lmp" href="http://starwars.wikia.com/wiki/Han_Solo" target="_blank">Click here for more Han</a></p>
+            
         </div>
 
            
 
     
     </div><!-- closes the main section-->
-
+    
 </body>
 </html>
